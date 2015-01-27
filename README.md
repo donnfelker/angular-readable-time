@@ -1,35 +1,35 @@
-# angular-readable-time
+# angular-seconds-time
 
-[![Build Status](https://travis-ci.org/wildlyinaccurate/angular-readable-time.png?branch=master)](https://travis-ci.org/wildlyinaccurate/angular-readable-time)
+[![Build Status](https://travis-ci.org/donnfelker/angular-seconds-time.png?branch=master)](https://travis-ci.org/donnfelker/angular-seconds-time)
 
-AngularJS filter for converting a number of seconds to a human-readable time.
+AngularJS filter for converting a number of seconds to a simple time of day
 
 ## Usage
 
-Include angular-readable-time.js in your application.
+Include angular-seconds-time.js in your application.
 
 ```html
-<script src="angular-readable-time.js"></script>
+<script src="angular-seconds-time.js"></script>
 ```
 
-Add the `readableTime` module to your application's dependencies.
+Add the `secondsTime` module to your application's dependencies.
 
 ```js
-angular.module('myApp', ['readableTime']);
+angular.module('myApp', ['secondsTime']);
 ```
 
 Use the filter by passing it a number of seconds.
 
 ```html
-<p>{{ 60 | readableTime }}</p>
-<p>{{ 128000 | readableTime }}</p>
+<p>{{ 60 | secondsTime }}</p>
+<p>{{ 72000 | secondsTime }}</p>
 ```
 
 The above example will look something like this:
 
-> 1 minute
+> 12:01AM
 >
-> 2 weeks
+> 8:00PM
 
 ## License
 

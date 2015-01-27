@@ -1,9 +1,9 @@
 {
-  "name": "angular-readable-time",
+  "name": "angular-seconds-time",
   "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wildlyinaccurate/angular-readable-time.git"
+    "url": "https://github.com/donnfelker/angular-seconds-time.git"
   },
   "dependencies": {},
   "devDependencies": {

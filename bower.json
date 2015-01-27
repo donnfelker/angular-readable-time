@@ -1,19 +1,18 @@
 {
-  "name": "angular-readable-time",
+  "name": "angular-seconds-time",
   "version": "0.1.1",
-  "description": "AngularJS filter for converting a number of seconds to a human-readable time.",
-  "homepage": "https://github.com/wildlyinaccurate/angular-readable-time",
+  "description": "AngularJS filter for converting a number of seconds to a time of day.",
+  "homepage": "https://github.com/donnfelker/angular-seconds-time",
   "authors": [
-    "Joseph Wynn <joseph@wildlyinaccurate.com>"
+    "Donn Felker <donn@donnfelker.com>"
   ],
   "keywords": [
     "angular",
-    "human",
-    "readable",
+    "seconds",
     "time"
   ],
   "license": "MIT",
-  "main": "./angular-readable-time.js",
+  "main": "./angular-seconds-time.js",
   "dependencies": {
     "angular": ">=1.0.0"
   },

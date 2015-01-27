@@ -33,10 +33,10 @@ module.exports = function (grunt) {
     uglify: {
       all: {
         options: {
-          sourceMap: 'angular-readable-time.js.map'
+          sourceMap: 'angular-seconds-time.js.map'
         },
         files: {
-          'angular-readable-time.min.js': ['angular-readable-time.js']
+          'angular-seconds-time.min.js': ['angular-seconds-time.js']
         }
       }
     }
@@ -52,7 +52,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('default', [
-    'test',
-    'build'
+      'build',
+      'test'
   ]);
 };
