@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/donnfelker/angular-seconds-time.png?branch=master)](https://travis-ci.org/donnfelker/angular-seconds-time)
 
+
 AngularJS filter for converting a number of seconds to a simple time of day
 
 ## Usage
