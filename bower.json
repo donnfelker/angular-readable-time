@@ -1,6 +1,6 @@
 {
   "name": "angular-seconds-time",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "AngularJS filter for converting a number of seconds to a time of day.",
   "homepage": "https://github.com/donnfelker/angular-seconds-time",
   "authors": [
