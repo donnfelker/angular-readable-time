@@ -19,6 +19,12 @@ Add the `secondsTime` module to your application's dependencies.
 angular.module('myApp', ['secondsTime']);
 ```
 
+### Install via Bower
+
+```js
+bower install angular-seconds-time
+```
+
 Use the filter by passing it a number of seconds.
 
 ```html
@@ -31,6 +37,7 @@ The above example will look something like this:
 > 12:01AM
 >
 > 8:00PM
+
 
 ## License
 
